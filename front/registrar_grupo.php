@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,13 +11,22 @@
      
 
     <input name="idcurso_primaria" type="number" min="1" placeholder="IdCurso Primaria" required>
-    <input name="orientacion" type="text" maxlength="50" placeholder="Orientación">
-       
-        <input type="submit" value="Registrar">
-    </form>
 
-    
-    
+ 
+    <form id="form-group-register">
+  <div class="mb-3">
+    <label for="nombre" class="form-label">Nombre</label>
+    <input name="nombre" type="text" maxlength="50" placeholder="Orientación">
+</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+
+  <button type="submit" class="btn btn-primary" value="Registrar">Submit</button>
+</form>
+   
 </body>
 
 </html>
