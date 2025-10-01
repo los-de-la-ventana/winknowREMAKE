@@ -1,0 +1,40 @@
+
+{
+    "ok": true,
+    "error": null,
+    "usuarios":
+    [
+        {
+            "nombre": "Alejo",
+            "ci": 5701217,
+            "contrasena": "no se sabe",
+            "email": "alejo@example.com"
+        },
+        {
+            "nombre": "Alejo",
+            "ci": 5701217,
+            "contrasena": "no se sabe",
+            "email": "alejo@example.com"
+        }
+    ]
+}
+
+while(!estoyDentro)
+{
+    hackearBaseDeDatos();
+}
+
+function hackearBaseDeDatos()
+{
+    if(windows)
+    {
+        cambiarContrasena();
+        entrar();
+    }
+    else if(linux)
+    {
+        masFacilTodavia();
+        ponesCHMOD();
+        yLePonesSudoSu();
+    }
+}
